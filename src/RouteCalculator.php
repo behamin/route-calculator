@@ -4,7 +4,7 @@ namespace Behamin\RouteCalculator;
 
 class RouteCalculator
 {
-    public function getRoute(int $route): string
+    public function getRoute(string $route): string
     {
         return 'Route: ' . $route;
     }
