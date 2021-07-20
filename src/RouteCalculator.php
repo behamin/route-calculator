@@ -6,6 +6,7 @@ class RouteCalculator
 {
     public function getRoute(string $route): string
     {
-        return 'Route: ' . $route
+        $route = $route;
+        return 'Route: ' . $route;
     }
 }
